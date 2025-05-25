@@ -1,138 +1,135 @@
-🧪 Cypress Kitchensink Example
+```markdown
+# 🧪 Cypress Kitchensink Example
 
+[![Cypress Tests](https://github.com/cypress-io/cypress-example-kitchensink/actions/workflows/main.yml/badge.svg)](https://github.com/cypress-io/cypress-example-kitchensink/actions)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Cypress Docs](https://img.shields.io/badge/docs-cypress.io-blue)](https://docs.cypress.io/)
 
-Contoh proyek end-to-end testing menggunakan Cypress.io. Ini adalah laboratorium resmi Cypress untuk memamerkan semua kemampuan utama mereka dalam menguji aplikasi web.
+> Contoh proyek end-to-end testing menggunakan **Cypress.io**. Ini adalah _laboratorium_ resmi Cypress untuk memamerkan semua kemampuan utama mereka dalam menguji aplikasi web.
 
+## 🚀 Quick Start
 
-🚀 Quick Start
-🛠️ Install & Run
+### 🛠️ Install & Run
+
+```bash
 git clone https://github.com/cypress-io/cypress-example-kitchensink.git
 cd cypress-example-kitchensink
 npm install
 npm run cy:open
----
-Gunakan npm run cy:run untuk headless mode (CLI)
+```
 
-Gunakan npm run dev jika ingin mengembangkan tes baru
-----
+- Gunakan `npm run cy:run` untuk headless mode (CLI)
+- Gunakan `npm run dev` jika ingin mengembangkan tes baru
 
-🧠 Fitur yang Dicontohkan
-Kategori	Contoh Tes
-Input Forms	Form submission, validations
-DOM	Element query, alias, wait
-XHR Request	.intercept(), fixtures, loading states
-UI Interaksi	Drag & drop, modals, checkbox, radio
-Command	Custom command, cy.wrap, cy.invoke
-Assertions	Should, expect, contain, etc.
-Others	File upload, cookies, localStorage, etc.
+## 🧠 Fitur yang Dicontohkan
 
----
+| Kategori       | Contoh Tes                              |
+|----------------|-----------------------------------------|
+| Input Forms    | Form submission, validations            |
+| DOM            | Element query, alias, wait              |
+| XHR Request    | `.intercept()`, fixtures, loading states|
+| UI Interaksi   | Drag & drop, modals, checkbox, radio    |
+| Command        | Custom command, `cy.wrap`, `cy.invoke`  |
+| Assertions     | `should`, `expect`, `contain`, etc.     |
+| Others         | File upload, cookies, localStorage, etc.|
 
-📁 Struktur Folder
-📦 cypress-example-kitchensink
+## 📁 Struktur Folder
+
+```
+cypress-example-kitchensink/
 ├── cypress/
-│   ├── integration/     # Semua skenario testing
-│   ├── fixtures/        # Data testing JSON
-│   ├── support/         # Command & konfigurasi global
-├── cypress.json         # Konfigurasi utama Cypress
-├── package.json         # Script & dependensi NPM
+│   ├── integration/  # Semua skenario testing
+│   ├── fixtures/     # Data testing JSON
+│   ├── support/      # Command & konfigurasi global
+├── cypress.json      # Konfigurasi utama Cypress
+├── package.json      # Script & dependensi NPM
+```
 
----
+## 📚 Dokumentasi Tambahan
 
-📚 Dokumentasi Tambahan
+- [Cypress Official Docs](https://docs.cypress.io)
+- [API Commands](https://docs.cypress.io/api/table-of-contents)
+- [Cypress YouTube Channel](https://www.youtube.com/c/Cypressio)
 
-    🔗 Cypress Official Docs
-
-    📘 API Commands
-
-    🎥 Cypress YouTube Channel
----
-
-🧪 Tentang Cypress
+## 🧪 Tentang Cypress
 
 Cypress adalah framework modern untuk end-to-end testing yang menawarkan:
 
-    Pengujian real browser
+- Pengujian real browser
+- Debug realtime
+- Snapshot state DOM
+- Tes lebih cepat & lebih stabil
 
-    Debug realtime
+## 🤝 Kontribusi
 
-    Snapshot state DOM
-
-    Tes lebih cepat & lebih stabil
-
----
-
-🤝 Kontribusi
-
-Pull request selalu diterima!
-Pastikan semua tes lulus sebelum submit:
+Pull request selalu diterima! Pastikan semua tes lulus sebelum submit:
 
 ```bash
 npm run cy:run
+```
 
+# Crypto Lending dengan Garansi NFT
 
-Crypto Lending dengan Garansi NFT
-Platform pinjaman crypto yang memungkinkan peminjam menggunakan NFT sebagai jaminan.Sistem ini menggunakan smart contract untuk memastikan NFT yang dijaminkan aman dan pinjaman diterima dengan transparan dan otomatis.
+Platform pinjaman crypto yang memungkinkan peminjam menggunakan NFT sebagai jaminan. Sistem ini menggunakan smart contract untuk memastikan NFT yang dijaminkan aman dan pinjaman diterima dengan transparan dan otomatis.
 
-Fitur
+## Fitur
 
-Pinjaman crypto dengan NFT sebagai jaminan  
-Smart contract mengelola transaksi pinjaman dan pengembalian  
-Otomatisasi penguncian dan pelepasan NFT saat pinjaman aktif dan lunas  
-Transparansi dan keamanan via blockchain
+- Pinjaman crypto dengan NFT sebagai jaminan
+- Smart contract mengelola transaksi pinjaman dan pengembalian
+- Otomatisasi penguncian dan pelepasan NFT saat pinjaman aktif dan lunas
+- Transparansi dan keamanan via blockchain
 
+## Cara Kerja
 
-Cara Kerja
+1. Peminjam mengunci NFT-nya ke smart contract sebagai jaminan.
+2. Smart contract mengeluarkan pinjaman dalam bentuk crypto.
+3. Peminjam membayar kembali pinjaman sesuai perjanjian.
+4. Setelah lunas, NFT dilepaskan kembali ke peminjam.
+5. Jika gagal bayar, NFT bisa dijual oleh pemberi pinjaman sesuai aturan.
 
-Peminjam mengunci NFT-nya ke smart contract sebagai jaminan.  
-Smart contract mengeluarkan pinjaman dalam bentuk crypto.  
-Peminjam membayar kembali pinjaman sesuai perjanjian.  
-Setelah lunas, NFT dilepaskan kembali ke peminjam.  
-Jika gagal bayar, NFT bisa dijual oleh pemberi pinjaman sesuai aturan.
+## Teknologi
 
+- Solidity (Smart Contract Ethereum)
+- Web3.js / Ethers.js (Frontend interaction)
+- Hardhat / Truffle (Development & Testing)
+- React / Next.js (Frontend, opsional)
+- IPFS (Untuk metadata NFT, opsional)
 
-Teknologi
+## Instalasi & Penggunaan
 
-Solidity (Smart Contract Ethereum)  
-Web3.js / Ethers.js (Frontend interaction)  
-Hardhat / Truffle (Development & Testing)  
-React / Next.js (Frontend, opsional)  
-IPFS (Untuk metadata NFT, opsional)
+*Masih dalam pengembangan, stay tuned!*
 
+## Kontribusi
 
-Instalasi & Penggunaan
-Masih dalam pengembangan, stay tuned!
+Semua kontribusi sangat diterima! Silakan buat pull request atau issues jika ada fitur atau perbaikan.
 
-Kontribusi
-Semua kontribusi sangat diterima!Silakan buat pull request atau issues jika ada fitur atau perbaikan.
+## Lisensi
 
----
-Lisensi
 MIT License
----
-Kontak
 
-Email: kongali1720@gmail.com  
-GitHub: kongali1720
+## Kontak
 
----
-☕ Dukung Aku
-Dukung aku agar tetap waras menulis script tengah malam...
-👉 Buy Me a Coffee via PayPal 👈Support with 💸 so I can buy ☕ and keep being 🔥!
+- Email: [kongali1720@gmail.com](mailto:kongali1720@gmail.com)
+- GitHub: [kongali1720](https://github.com/kongali1720)
 
-📫 Let’s Connect Like Hackers
+## ☕ Dukung Aku
 
-🧙 GitHub: kongali1720
-💌 Email: kongali1720@gmail.com
-🕵️‍♂️ Site: Coming soon — stay curious...
+Dukung aku agar tetap waras menulis script tengah malam!
 
----
+👉 [Buy Me a Coffee via PayPal](https://www.paypal.com/paypalme/bungtempong99) 👈  
+Support with 💸 so I can buy ☕ and keep being 🔥!
 
-💻 INITIATING HUMANITY MODE...
+## 📫 Let’s Connect Like Hackers
 
-🎯 Target Locked: Anak-anak Pejuang Down Syndrome  
-🩺 Status: Butuh Dukungan  
-❤️ Response: Buka Hati + Klik Link = Satu Senyum Baru
+- 🧙 GitHub: [kongali1720](https://github.com/kongali1720)
+- 💌 Email: [kongali1720@gmail.com](mailto:kongali1720@gmail.com)
+- 🕵️‍♂️ Site: Coming soon — stay curious...
+
+## 💻 INITIATING HUMANITY MODE...
+
+🎯 **Target Locked**: Anak-anak Pejuang Down Syndrome  
+🩺 **Status**: Butuh Dukungan  
+❤️ **Response**: Buka Hati + Klik Link = Satu Senyum Baru
 
 🧬 Mereka bukan berbeda — mereka dilahirkan untuk mengajarkan dunia tentang cinta yang murni dan kesabaran yang luar biasa.
 
@@ -146,8 +143,8 @@ Dukung aku agar tetap waras menulis script tengah malam...
   </a>
 </p>
 
+---
 "Karena jadi hacker hati bukan cuma soal kode... tapi juga soal peduli." 🖤
 
 "Ngoding boleh sambil senyum, asal jangan inject SQL sambil ngambek!" 😜
-
 ---
