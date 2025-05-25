@@ -173,9 +173,8 @@ Support with 💸 so I can buy ☕ and keep being 🔥!
     <img src="https://img.shields.io/badge/SUPPORT--NOW-%F0%9F%A7%A1-orange?style=for-the-badge&logo=heart" />
   </a>
 </p>
-
+---
 "Karena jadi hacker hati bukan cuma soal kode... tapi juga soal peduli." 🖤
 
 "Ngoding boleh sambil senyum, asal jangan inject SQL sambil ngambek!" 😜
-
 ---
