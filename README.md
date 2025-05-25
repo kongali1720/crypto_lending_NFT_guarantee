@@ -1,18 +1,11 @@
-# 🧪 Cypress Kitchensink Example
+🧪 Cypress Kitchensink Example
 
-[![Cypress Tests](https://github.com/cypress-io/cypress-example-kitchensink/actions/workflows/main.yml/badge.svg)](https://github.com/cypress-io/cypress-example-kitchensink/actions)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Cypress Docs](https://img.shields.io/badge/docs-cypress.io-blue)](https://docs.cypress.io/)
 
-> Contoh proyek end-to-end testing menggunakan **Cypress.io**. Ini adalah _laboratorium_ resmi Cypress untuk memamerkan semua kemampuan utama mereka dalam menguji aplikasi web.
+Contoh proyek end-to-end testing menggunakan Cypress.io. Ini adalah laboratorium resmi Cypress untuk memamerkan semua kemampuan utama mereka dalam menguji aplikasi web.
 
----
 
-## 🚀 Quick Start
-
-### 🛠️ Install & Run
-
-```bash
+🚀 Quick Start
+🛠️ Install & Run
 git clone https://github.com/cypress-io/cypress-example-kitchensink.git
 cd cypress-example-kitchensink
 npm install
@@ -53,6 +46,7 @@ Others	File upload, cookies, localStorage, etc.
     📘 API Commands
 
     🎥 Cypress YouTube Channel
+---
 
 🧪 Tentang Cypress
 
@@ -76,83 +70,61 @@ Pastikan semua tes lulus sebelum submit:
 ```bash
 npm run cy:run
 
----
 
-# Crypto Lending dengan Garansi NFT
+Crypto Lending dengan Garansi NFT
+Platform pinjaman crypto yang memungkinkan peminjam menggunakan NFT sebagai jaminan.Sistem ini menggunakan smart contract untuk memastikan NFT yang dijaminkan aman dan pinjaman diterima dengan transparan dan otomatis.
 
-Platform pinjaman crypto yang memungkinkan peminjam menggunakan NFT sebagai jaminan.  
-Sistem ini menggunakan smart contract untuk memastikan NFT yang dijaminkan aman dan pinjaman diterima dengan transparan dan otomatis.
+Fitur
 
----
+Pinjaman crypto dengan NFT sebagai jaminan  
+Smart contract mengelola transaksi pinjaman dan pengembalian  
+Otomatisasi penguncian dan pelepasan NFT saat pinjaman aktif dan lunas  
+Transparansi dan keamanan via blockchain
 
-## Fitur
 
-- Pinjaman crypto dengan NFT sebagai jaminan  
-- Smart contract mengelola transaksi pinjaman dan pengembalian  
-- Otomatisasi penguncian dan pelepasan NFT saat pinjaman aktif dan lunas  
-- Transparansi dan keamanan via blockchain  
+Cara Kerja
 
----
+Peminjam mengunci NFT-nya ke smart contract sebagai jaminan.  
+Smart contract mengeluarkan pinjaman dalam bentuk crypto.  
+Peminjam membayar kembali pinjaman sesuai perjanjian.  
+Setelah lunas, NFT dilepaskan kembali ke peminjam.  
+Jika gagal bayar, NFT bisa dijual oleh pemberi pinjaman sesuai aturan.
 
-## Cara Kerja
 
-1. Peminjam mengunci NFT-nya ke smart contract sebagai jaminan.  
-2. Smart contract mengeluarkan pinjaman dalam bentuk crypto.  
-3. Peminjam membayar kembali pinjaman sesuai perjanjian.  
-4. Setelah lunas, NFT dilepaskan kembali ke peminjam.  
-5. Jika gagal bayar, NFT bisa dijual oleh pemberi pinjaman sesuai aturan.
+Teknologi
 
----
+Solidity (Smart Contract Ethereum)  
+Web3.js / Ethers.js (Frontend interaction)  
+Hardhat / Truffle (Development & Testing)  
+React / Next.js (Frontend, opsional)  
+IPFS (Untuk metadata NFT, opsional)
 
-## Teknologi
 
-- Solidity (Smart Contract Ethereum)  
-- Web3.js / Ethers.js (Frontend interaction)  
-- Hardhat / Truffle (Development & Testing)  
-- React / Next.js (Frontend, opsional)  
-- IPFS (Untuk metadata NFT, opsional)
+Instalasi & Penggunaan
+Masih dalam pengembangan, stay tuned!
 
----
-
-## Instalasi & Penggunaan
-
-*Masih dalam pengembangan, stay tuned!*
+Kontribusi
+Semua kontribusi sangat diterima!Silakan buat pull request atau issues jika ada fitur atau perbaikan.
 
 ---
-
-## Kontribusi
-
-Semua kontribusi sangat diterima!  
-Silakan buat pull request atau issues jika ada fitur atau perbaikan.
-
----
-
-## Lisensi
-
+Lisensi
 MIT License
+---
+Kontak
+
+Email: kongali1720@gmail.com  
+GitHub: kongali1720
 
 ---
-
-## Kontak
-
-- Email: kongali1720@gmail.com  
-- GitHub: [kongali1720](https://github.com/kongali1720)
-
----
-## ☕ Dukung Aku
-
+☕ Dukung Aku
 Dukung aku agar tetap waras menulis script tengah malam...
+👉 Buy Me a Coffee via PayPal 👈Support with 💸 so I can buy ☕ and keep being 🔥!
 
-👉 [Buy Me a Coffee via PayPal](https://www.paypal.com/paypalme/bungtempong99) 👈  
-Support with 💸 so I can buy ☕ and keep being 🔥!
+📫 Let’s Connect Like Hackers
 
----
-
-## 📫 Let’s Connect Like Hackers
-
-- 🧙 GitHub: [kongali1720](https://github.com/kongali1720)
-- 💌 Email: [kongali1720@gmail.com](mailto:kongali1720@gmail.com)
-- 🕵️‍♂️ Site: Coming soon — stay curious...
+🧙 GitHub: kongali1720
+💌 Email: kongali1720@gmail.com
+🕵️‍♂️ Site: Coming soon — stay curious...
 
 ---
 
@@ -173,8 +145,9 @@ Support with 💸 so I can buy ☕ and keep being 🔥!
     <img src="https://img.shields.io/badge/SUPPORT--NOW-%F0%9F%A7%A1-orange?style=for-the-badge&logo=heart" />
   </a>
 </p>
----
+
 "Karena jadi hacker hati bukan cuma soal kode... tapi juga soal peduli." 🖤
 
 "Ngoding boleh sambil senyum, asal jangan inject SQL sambil ngambek!" 😜
+
 ---
