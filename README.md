@@ -151,6 +151,8 @@ Satu cangkir kopi = Satu baris kode yang lebih manusiawi 😄
 - 💌 Email: kongali1720@gmail.com  
 - 🌍 Website: Coming soon...
 
+---
+
 ❤️ Humanity Mode: ON
 
 🎯 Target Kebaikan: Anak-anak Pejuang Down Syndrome  
