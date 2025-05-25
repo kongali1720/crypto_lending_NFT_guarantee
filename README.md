@@ -139,34 +139,43 @@ MIT License
 - GitHub: [kongali1720](https://github.com/kongali1720)
 
 ---
+## ☕ Dukung Aku
 
-☕ Dukung Karya Tengah Malam
+Dukung aku agar tetap waras menulis script tengah malam...
 
-Satu cangkir kopi = Satu baris kode yang lebih manusiawi 😄
-
-**Buy Me a Coffee**  
-🧠 Siapa di balik proyek ini?
-
-- 🧙 GitHub: kongali1720  
-- 💌 Email: kongali1720@gmail.com  
-- 🌍 Website: Coming soon...
+👉 [Buy Me a Coffee via PayPal](https://www.paypal.com/paypalme/bungtempong99) 👈  
+Support with 💸 so I can buy ☕ and keep being 🔥!
 
 ---
 
-❤️ Humanity Mode: ON
+## 📫 Let’s Connect Like Hackers
 
-🎯 Target Kebaikan: Anak-anak Pejuang Down Syndrome  
+- 🧙 GitHub: [kongali1720](https://github.com/kongali1720)
+- 💌 Email: [kongali1720@gmail.com](mailto:kongali1720@gmail.com)
+- 🕵️‍♂️ Site: Coming soon — stay curious...
+
+---
+
+💻 INITIATING HUMANITY MODE...
+
+🎯 Target Locked: Anak-anak Pejuang Down Syndrome  
 🩺 Status: Butuh Dukungan  
-💖 Respon: Klik, Bantu, Sebarkan
+❤️ Response: Buka Hati + Klik Link = Satu Senyum Baru
 
-Mereka tidak berbeda.  
-Mereka hadir untuk mengajarkan kita tentang cinta dan kesabaran murni.  
-Setiap dukunganmu adalah satu senyum baru bagi mereka.
+🧬 Mereka bukan berbeda — mereka dilahirkan untuk mengajarkan dunia tentang cinta yang murni dan kesabaran yang luar biasa.
 
-Karena jadi hacker hati itu bukan cuma soal kode...
+👣 Setiap langkah kecil mereka = Keajaiban besar.
 
-Tapi juga soal peduli.
+⚡ Bantu mereka melangkah lebih jauh, dengan caramu sendiri.
 
-Ngoding boleh sambil senyum, asal jangan inject SQL sambil ngambek! 😜
+<p align="center">
+  <a href="https://mydonation4ds.github.io/" target="_blank">
+    <img src="https://img.shields.io/badge/SUPPORT--NOW-%F0%9F%A7%A1-orange?style=for-the-badge&logo=heart" />
+  </a>
+</p>
+
+"Karena jadi hacker hati bukan cuma soal kode... tapi juga soal peduli." 🖤
+
+"Ngoding boleh sambil senyum, asal jangan inject SQL sambil ngambek!" 😜
 
 ---
