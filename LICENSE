@@ -1,0 +1,26 @@
+
+## 📂 File-file Pendukung
+
+### 1. DOCS/AUDIT.md
+```markdown
+# Laporan Audit Keamanan
+
+## Ringkasan Eksekutif
+Kontrak inti telah melalui audit keamanan menyeluruh dengan temuan berikut:
+
+### Tingkat Kritis
+- Tidak ada
+
+### Tingkat Tinggi
+- [H-01] Potensi front-running pada proses likuidasi - **Diperbaiki**
+
+## Temuan Detail
+### H-01: Front-running Liquidation
+**Deskripsi**: Likuidator bisa memonitor mempool dan mengeksekusi likuidasi sebelum pemilik.
+
+**Rekomendasi**: Implementasi MEV protection dengan delay execution.
+
+## Scope Audit
+- LoanCore.sol
+- NFTVault.sol
+- LiquidationEngine.sol
