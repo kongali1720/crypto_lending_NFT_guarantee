@@ -1,123 +1,161 @@
-```markdown
-# 🧪 Cypress Kitchensink Example
+# Crypto Lending with NFT Guarantee
 
-[![Cypress Tests](https://github.com/cypress-io/cypress-example-kitchensink/actions/workflows/main.yml/badge.svg)](https://github.com/cypress-io/cypress-example-kitchensink/actions)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Cypress Docs](https://img.shields.io/badge/docs-cypress.io-blue)](https://docs.cypress.io/)
+[![Solidity Version](https://img.shields.io/badge/Solidity-^0.8.0-blue)](https://soliditylang.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> Contoh proyek end-to-end testing menggunakan **Cypress.io**. Ini adalah _laboratorium_ resmi Cypress untuk memamerkan semua kemampuan utama mereka dalam menguji aplikasi web.
+A decentralized lending platform where users can borrow crypto assets using NFTs as collateral.
 
-## 🚀 Quick Start
+## Key Features
 
-### 🛠️ Install & Run
+- 🏦 Secure crypto lending with NFT collateralization
+- 🔒 Non-custodial NFT vault smart contracts
+- 📈 Dynamic loan-to-value (LTV) ratios based on NFT valuation
+- ⚡️ Flash loan resistant architecture
+- 🖼 Supports ERC-721 and ERC-1155 NFT standards
 
-```bash
-git clone https://github.com/cypress-io/cypress-example-kitchensink.git
-cd cypress-example-kitchensink
+## Technology Stack
+
+- **Smart Contracts**: Solidity (0.8.x)
+- **Frontend**: React.js + Ethers.js
+- **Testing**: Hardhat + Chai
+- **Oracle**: Chainlink for NFT price feeds
+- **Storage**: IPFS for NFT metadata
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js v16+
+- Yarn or npm
+- Hardhat
+- MetaMask wallet
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kongali1720/crypto_lending_NFT_guarantee.git
+   cd crypto_lending_NFT_guarantee
+---
+crypto_lending_NFT_guarantee/
+
+├── contracts/
+
+│   ├── LoanCore.sol                 # Main lending logic
+
+│   ├── NFTVault.sol                 # NFT collateral management
+
+│   ├── PriceOracle.sol              # NFT valuation (Chainlink integration)
+
+│   ├── interfaces/
+
+│   │   ├── IERC721.sol              # OpenZeppelin interface
+
+│   │   └── ILoanCore.sol            # Loan system interface
+
+│   └── tests/
+
+│       ├── LoanCore.test.js          # Hardhat tests
+
+
+│       └── NFTVault.test.js          # NFT tests
+
+├── frontend/
+
+│   ├── src/
+
+│   │   ├── components/
+
+│   │   │   ├── BorrowForm.js        # UI for loan requests
+
+│   │   │   └── NFTGallery.js        # Display user's NFTs
+
+│   │   ├── App.js                   # Main React app
+
+│   │   └── utils/
+
+│   │       └── web3.js              # Ethers.js connection
+
+│   └── public/
+
+│       ├── index.html
+
+│       └── assets/                  # Logo, etc.
+
+├── scripts/
+
+│   ├── deploy.js                    # Deploy all contracts
+
+│   └── verify.js                    # Verify on Etherscan
+
+├── docs/
+
+│   ├── ARCHITECTURE.md              # System design
+
+│   ├── AUDIT.md                     # Security checklist
+
+│   └── USER_GUIDE.md                # How to use dApp
+
+├── .env.example                     # Env variables template
+
+├── .gitignore
+
+├── README.md                        # Auto-generated (lihat bawah)
+
+├── LICENSE                          # MIT
+
+└── hardhat.config.js                # Network setup
+
+---
+
+Install dependencies:
+
+bash
+yarn install
+# or
 npm install
-npm run cy:open
-```
+Set up environment variables:
 
-- Gunakan `npm run cy:run` untuk headless mode (CLI)
-- Gunakan `npm run dev` jika ingin mengembangkan tes baru
+bash
+cp .env.example .env
+# Fill in your environment variables
 
-## 🧠 Fitur yang Dicontohkan
+---
 
-| Kategori       | Contoh Tes                              |
-|----------------|-----------------------------------------|
-| Input Forms    | Form submission, validations            |
-| DOM            | Element query, alias, wait              |
-| XHR Request    | `.intercept()`, fixtures, loading states|
-| UI Interaksi   | Drag & drop, modals, checkbox, radio    |
-| Command        | Custom command, `cy.wrap`, `cy.invoke`  |
-| Assertions     | `should`, `expect`, `contain`, etc.     |
-| Others         | File upload, cookies, localStorage, etc.|
+Smart Contract Deployment
+bash
+npx hardhat run scripts/deploy.js --network <network_name>
+Running Tests
+bash
+npx hardhat test
+Architecture Overview
+System Architecture
 
-## 📁 Struktur Folder
+Documentation
+Smart Contract API
 
-```
-cypress-example-kitchensink/
-├── cypress/
-│   ├── integration/  # Semua skenario testing
-│   ├── fixtures/     # Data testing JSON
-│   ├── support/      # Command & konfigurasi global
-├── cypress.json      # Konfigurasi utama Cypress
-├── package.json      # Script & dependensi NPM
-```
+User Guide
 
-## 📚 Dokumentasi Tambahan
+Security Audit Report
 
-- [Cypress Official Docs](https://docs.cypress.io)
-- [API Commands](https://docs.cypress.io/api/table-of-contents)
-- [Cypress YouTube Channel](https://www.youtube.com/c/Cypressio)
+---
+Contributing
+---
+We welcome contributions! Please read our Contribution Guidelines first.
 
-## 🧪 Tentang Cypress
+License
+---
 
-Cypress adalah framework modern untuk end-to-end testing yang menawarkan:
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-- Pengujian real browser
-- Debug realtime
-- Snapshot state DOM
-- Tes lebih cepat & lebih stabil
+---
 
-## 🤝 Kontribusi
-
-Pull request selalu diterima! Pastikan semua tes lulus sebelum submit:
-
-```bash
-npm run cy:run
-```
-
-# Crypto Lending dengan Garansi NFT
-
-Platform pinjaman crypto yang memungkinkan peminjam menggunakan NFT sebagai jaminan. Sistem ini menggunakan smart contract untuk memastikan NFT yang dijaminkan aman dan pinjaman diterima dengan transparan dan otomatis.
-
-## Fitur
-
-- Pinjaman crypto dengan NFT sebagai jaminan
-- Smart contract mengelola transaksi pinjaman dan pengembalian
-- Otomatisasi penguncian dan pelepasan NFT saat pinjaman aktif dan lunas
-- Transparansi dan keamanan via blockchain
-
-## Cara Kerja
-
-1. Peminjam mengunci NFT-nya ke smart contract sebagai jaminan.
-2. Smart contract mengeluarkan pinjaman dalam bentuk crypto.
-3. Peminjam membayar kembali pinjaman sesuai perjanjian.
-4. Setelah lunas, NFT dilepaskan kembali ke peminjam.
-5. Jika gagal bayar, NFT bisa dijual oleh pemberi pinjaman sesuai aturan.
-
-## Teknologi
-
-- Solidity (Smart Contract Ethereum)
-- Web3.js / Ethers.js (Frontend interaction)
-- Hardhat / Truffle (Development & Testing)
-- React / Next.js (Frontend, opsional)
-- IPFS (Untuk metadata NFT, opsional)
-
-## Instalasi & Penggunaan
-
-*Masih dalam pengembangan, stay tuned!*
-
-## Kontribusi
-
-Semua kontribusi sangat diterima! Silakan buat pull request atau issues jika ada fitur atau perbaikan.
-
-## Lisensi
-
-MIT License
-
-## Kontak
-
-- Email: [kongali1720@gmail.com](mailto:kongali1720@gmail.com)
-- GitHub: [kongali1720](https://github.com/kongali1720)
-
-## ☕ Dukung Aku
-
-Dukung aku agar tetap waras menulis script tengah malam!
+## ☕ Dukung aku agar tetap waras menulis script tengah malam...
 
 👉 [Buy Me a Coffee via PayPal](https://www.paypal.com/paypalme/bungtempong99) 👈  
 Support with 💸 so I can buy ☕ and keep being 🔥!
+
+---
 
 ## 📫 Let’s Connect Like Hackers
 
@@ -125,11 +163,13 @@ Support with 💸 so I can buy ☕ and keep being 🔥!
 - 💌 Email: [kongali1720@gmail.com](mailto:kongali1720@gmail.com)
 - 🕵️‍♂️ Site: Coming soon — stay curious...
 
-## 💻 INITIATING HUMANITY MODE...
+---
 
-🎯 **Target Locked**: Anak-anak Pejuang Down Syndrome  
-🩺 **Status**: Butuh Dukungan  
-❤️ **Response**: Buka Hati + Klik Link = Satu Senyum Baru
+💻 INITIATING HUMANITY MODE...
+
+🎯 Target Locked: Anak-anak Pejuang Down Syndrome  
+🩺 Status: Butuh Dukungan  
+❤️ Response: Buka Hati + Klik Link = Satu Senyum Baru
 
 🧬 Mereka bukan berbeda — mereka dilahirkan untuk mengajarkan dunia tentang cinta yang murni dan kesabaran yang luar biasa.
 
@@ -143,8 +183,8 @@ Support with 💸 so I can buy ☕ and keep being 🔥!
   </a>
 </p>
 
----
 "Karena jadi hacker hati bukan cuma soal kode... tapi juga soal peduli." 🖤
 
 "Ngoding boleh sambil senyum, asal jangan inject SQL sambil ngambek!" 😜
+
 ---
