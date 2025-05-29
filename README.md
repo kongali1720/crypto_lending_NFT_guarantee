@@ -3,6 +3,11 @@
 [![Solidity Version](https://img.shields.io/badge/Solidity-^0.8.0-blue)](https://soliditylang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+---
+<p align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHRobjd2NWxsN25scWN6djRubWNib2RxamoyNThsa3VjbGpsaGUzeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hsUG0ob8Rezq14kZg6/giphy.gif" width="300"/>
+</p>
+---
 A decentralized lending platform where users can borrow crypto assets using NFTs as collateral.
 
 ## Key Features
