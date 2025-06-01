@@ -38,9 +38,9 @@ A decentralized lending platform where users can borrow crypto assets using NFTs
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/kongali1720/crypto_lending_NFT_guarantee.git
-   cd crypto_lending_NFT_guarantee
+
+       git clone https://github.com/kongali1720/crypto_lending_NFT_guarantee.git
+       cd crypto_lending_NFT_guarantee
 ---
 crypto_lending_NFT_guarantee/
 
